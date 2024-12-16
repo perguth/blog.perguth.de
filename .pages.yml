@@ -10,8 +10,8 @@ content:
       - { name: pubDatetime, label: Date, type: date }
       - { name: modDatetime, label: Date, type: date }
       - { name: title, label: Title, type: string, required: true }
-      - { name: image, label: Image, type: string, options: { input: public/assets, output: /assets } }
-      - { name: ogImage, label: OG Image, type: string }
+      - { name: image, label: Image, type: file, options: { accept: [".jpg", ".jpeg", ".png", ".webp"], uploadDir: "public/uploads" } }
+      - { name: ogImage, label: OG Image, type: file, options: { accept: [".jpg", ".jpeg", ".png", ".webp"], uploadDir: "public/uploads" } }
       - { name: slug, label: Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
@@ -30,8 +30,8 @@ content:
       - { name: pubDatetime, label: Date, type: date }
       - { name: modDatetime, label: Date, type: date }
       - { name: title, label: Title, type: string, required: true }
-      - { name: image, label: Image, type: string, options: { input: public/assets, output: /assets } }
-      - { name: ogImage, label: OG Image, type: string }
+      - { name: image, label: Image, type: file, options: { accept: [".jpg", ".jpeg", ".png", ".webp"], uploadDir: "public/uploads" } }
+      - { name: ogImage, label: OG Image, type: file, options: { accept: [".jpg", ".jpeg", ".png", ".webp"], uploadDir: "public/uploads" } }
       - { name: slug, label: Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
