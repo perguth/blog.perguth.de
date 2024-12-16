@@ -7,8 +7,8 @@ content:
       fields: [title, draft, date]
     fields:
       - { name: author, label: Author, type: string }
-      - { name: pubDatetime, label: Date, type: date }
-      - { name: modDatetime, label: Date, type: date }
+      - { name: pubDatetime, label: Publication date, type: date }
+      - { name: modDatetime, label: Modification date, type: date }
       - { name: title, label: Title, type: string, required: true }
       - name: image
         label: Image
