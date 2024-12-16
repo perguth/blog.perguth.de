@@ -10,8 +10,13 @@ content:
       - { name: pubDatetime, label: Date, type: date }
       - { name: modDatetime, label: Date, type: date }
       - { name: title, label: Title, type: string, required: true }
-      - { name: image, label: Image, type: file, options: { accept: [".jpg", ".jpeg", ".png", ".webp"], uploadDir: "public/uploads" } }
-      - { name: ogImage, label: OG Image, type: file, options: { accept: [".jpg", ".jpeg", ".png", ".webp"], uploadDir: "public/uploads" } }
+      - name: image
+        label: Image
+        type: image
+        options:
+          path: public/uploads/posts
+          extensions: [jpg, jpeg, png, webp, avif]
+      - { name: ogImage, label: OG Image, type: image, options: { path: public/uploads/posts, extensions: [jpg, jpeg, png, webp, avif] } }
       - { name: slug, label: Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
@@ -30,11 +35,16 @@ content:
       - { name: pubDatetime, label: Date, type: date }
       - { name: modDatetime, label: Date, type: date }
       - { name: title, label: Title, type: string, required: true }
-      - { name: image, label: Image, type: file, options: { accept: [".jpg", ".jpeg", ".png", ".webp"], uploadDir: "public/uploads" } }
-      - { name: ogImage, label: OG Image, type: file, options: { accept: [".jpg", ".jpeg", ".png", ".webp"], uploadDir: "public/uploads" } }
+      - name: image
+        label: Bild
+        type: image
+        options:
+          path: public/uploads/posts/de
+          extensions: [jpg, jpeg, png, webp, avif]
+      - { name: ogImage, label: OG Bild, type: image, options: { path: public/uploads/posts/de, extensions: [jpg, jpeg, png, webp, avif] } }
       - { name: slug, label: Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
-      - { name: description, label: Description, type: string }
-      - { name: body, label: Body, type: rich-text }
+      - { name: description, label: Beschreibung, type: string }
+      - { name: body, label: Text, type: rich-text }
