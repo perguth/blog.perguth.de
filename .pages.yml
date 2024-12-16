@@ -1,3 +1,7 @@
+media:
+  input: public/uploads
+  output: /uploads
+
 content:
   - name: posts
     label: English
@@ -7,14 +11,13 @@ content:
       fields: [title, draft, date]
     fields:
       - { name: author, label: Author, type: string }
-      - { name: pubDatetime, label: Publication date, type: date }
-      - { name: modDatetime, label: Modification date, type: date }
+      - { name: pubDatetime, label: Date, type: date }
+      - { name: modDatetime, label: Date, type: date }
       - { name: title, label: Title, type: string, required: true }
       - name: image
         label: Image
         type: image
         options:
-          path: public/uploads/posts
           extensions: [jpg, jpeg, png, webp, avif]
       - { name: slug, label: Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
@@ -30,7 +33,7 @@ content:
     view:
       fields: [title, draft, date]
     fields:
-      - { name: author, label: Author, type: string }
+      - { name: author, label: Autor, type: string }
       - { name: pubDatetime, label: Datum, type: date }
       - { name: modDatetime, label: Geändert am, type: date }
       - { name: title, label: Titel, type: string, required: true }
@@ -38,7 +41,6 @@ content:
         label: Bild
         type: image
         options:
-          path: public/uploads/posts/de
           extensions: [jpg, jpeg, png, webp, avif]
       - { name: slug, label: Slug, type: string }
       - { name: featured, label: Empfohlen, type: boolean }
