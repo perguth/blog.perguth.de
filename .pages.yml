@@ -23,7 +23,6 @@ content:
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
-      - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
 
   - name: posts_de
@@ -46,5 +45,4 @@ content:
       - { name: featured, label: Empfohlen, type: boolean }
       - { name: draft, label: Entwurf, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
-      - { name: description, label: Beschreibung, type: string }
       - { name: body, label: Inhalt, type: rich-text }
