@@ -1,13 +1,10 @@
-media:
-  input: public
-  output: /
 content:
   - name: posts
     label: Posts
     type: collection
-    path: src/content/blog
+    path: src/content/blog/{locale}
     view:
-      fields: [ title, draft, date ]
+      fields: [title, draft, date]
     fields:
       - { name: author, label: Author, type: string }
       - { name: pubDatetime, label: Date, type: date }
@@ -20,10 +17,13 @@ content:
       - { name: tags, label: Tags, type: string, list: true }
       - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
+    locales:
+      - { code: en, label: English }
+      - { code: de, label: German }
   - name: about
     label: About page
     type: file
-    path: src/pages/about.md
+    path: src/pages/{locale}/about.md
     fields:
       - { name: layout, type: string, hidden: true, default: "../layouts/AboutLayout.astro" }
       - { name: title, label: Title, type: string }
