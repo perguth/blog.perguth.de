@@ -16,7 +16,6 @@ content:
         options:
           path: public/uploads/posts
           extensions: [jpg, jpeg, png, webp, avif]
-      - { name: ogImage, label: OG Image, type: image, options: { path: public/uploads/posts, extensions: [jpg, jpeg, png, webp, avif] } }
       - { name: slug, label: Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
@@ -32,19 +31,18 @@ content:
       fields: [title, draft, date]
     fields:
       - { name: author, label: Author, type: string }
-      - { name: pubDatetime, label: Date, type: date }
-      - { name: modDatetime, label: Date, type: date }
-      - { name: title, label: Title, type: string, required: true }
+      - { name: pubDatetime, label: Datum, type: date }
+      - { name: modDatetime, label: Geändert am, type: date }
+      - { name: title, label: Titel, type: string, required: true }
       - name: image
         label: Bild
         type: image
         options:
           path: public/uploads/posts/de
           extensions: [jpg, jpeg, png, webp, avif]
-      - { name: ogImage, label: OG Bild, type: image, options: { path: public/uploads/posts/de, extensions: [jpg, jpeg, png, webp, avif] } }
       - { name: slug, label: Slug, type: string }
-      - { name: featured, label: Featured, type: boolean }
-      - { name: draft, label: Draft, type: boolean }
+      - { name: featured, label: Empfohlen, type: boolean }
+      - { name: draft, label: Entwurf, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
       - { name: description, label: Beschreibung, type: string }
-      - { name: body, label: Text, type: rich-text }
+      - { name: body, label: Inhalt, type: rich-text }
