@@ -1,8 +1,8 @@
 content:
-  - name: posts_en
-    label: Posts (English)
+  - name: posts
+    label: Posts (Default - English)
     type: collection
-    path: src/content/blog/en
+    path: src/content/blog
     view:
       fields: [title, draft, date]
     fields:
