@@ -11,8 +11,8 @@ content:
       fields: [title, draft, date]
     fields:
       - { name: author, label: Author, type: string }
-      - { name: pubDatetime, label: Date, type: date }
-      - { name: modDatetime, label: Date, type: date }
+      - { name: pubDatetime, label: Pub Date, type: date }
+      - { name: modDatetime, label: Mod Date, type: date }
       - { name: title, label: Title, type: string, required: true }
       - name: image
         label: Image
@@ -33,7 +33,7 @@ content:
       fields: [title, draft, date]
     fields:
       - { name: author, label: Autor, type: string }
-      - { name: pubDatetime, label: Datum, type: date }
+      - { name: pubDatetime, label: Publk. Datum, type: date }
       - { name: modDatetime, label: Geändert am, type: date }
       - { name: title, label: Titel, type: string, required: true }
       - name: image
