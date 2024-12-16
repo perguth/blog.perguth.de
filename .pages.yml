@@ -1,6 +1,6 @@
 content:
   - name: posts
-    label: Posts (Default - English)
+    label: English
     type: collection
     path: src/content/blog
     view:
@@ -19,7 +19,7 @@ content:
       - { name: body, label: Body, type: rich-text }
 
   - name: posts_de
-    label: Posts (German)
+    label: Deutsch
     type: collection
     path: src/content/blog/de
     view:
