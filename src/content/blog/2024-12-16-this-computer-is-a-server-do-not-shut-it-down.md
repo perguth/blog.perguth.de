@@ -4,6 +4,8 @@ title: This computer is a server. DO NOT SHUT IT DOWN!!
 ogImage: /uploads/do-not-turn-off.jpg
 featured: false
 draft: false
+tags:
+  - Cloud
 ---
 When we talk about servers, we often think of central data centers supporting cloud services or local servers operated by companies.
 
