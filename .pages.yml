@@ -14,7 +14,7 @@ content:
       - { name: pubDatetime, label: Pub Date, type: date }
       - { name: modDatetime, label: Mod Date, type: date }
       - { name: title, label: Title, type: string, required: true }
-      - name: image
+      - name: ogImage
         label: Image
         type: image
         options:
@@ -36,7 +36,7 @@ content:
       - { name: pubDatetime, label: Publk. Datum, type: date }
       - { name: modDatetime, label: Geändert am, type: date }
       - { name: title, label: Titel, type: string, required: true }
-      - name: image
+      - name: ogImage
         label: Bild
         type: image
         options:
