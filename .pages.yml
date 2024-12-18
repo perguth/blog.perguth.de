@@ -20,10 +20,7 @@ content:
       - { name: tags, label: Tags, type: string, list: true }
       - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
-      - { name: language, label: Language, type: select, options: {
-          en: English,
-          de: German
-        }, required: true }
+      - { name: lang, label: Language, type: string }
   - name: about
     label: About page
     type: file
