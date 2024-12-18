@@ -23,6 +23,7 @@ content:
       - { name: draft, label: Draft, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
       - { name: body, label: Body, type: rich-text }
+      - { name: description, label: Description, type: string }
 
   - name: posts_de
     label: Deutsch
@@ -44,3 +45,4 @@ content:
       - { name: draft, label: Entwurf, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
       - { name: body, label: Inhalt, type: rich-text }
+      - { name: description, label: Description, type: string }
