@@ -6,6 +6,7 @@ featured: false
 draft: false
 tags:
   - Cloud
+  - Speed
 ---
 When we talk about servers, we often think of central data centers supporting cloud services or local servers operated by companies.
 
