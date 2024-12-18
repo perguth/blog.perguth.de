@@ -73,6 +73,9 @@ const layoutProps = {
       size="lg"
       className="my-2"
     />
+
+    {ogUrl && <img src={ogUrl} alt={title} class="my-4 mx-auto" />}
+
     <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
       <Content />
     </article>
