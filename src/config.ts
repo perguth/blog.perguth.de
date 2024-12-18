@@ -4,8 +4,8 @@ export const SITE: Site = {
   website: "https://blog.perguth.de/", // replace this with your deployed domain
   author: "Per Guth",
   desc: "My tech blog.",
-  title: "Tech Blog",
-  ogImage: "https://raw.githubusercontent.com/perguth/perguth.github.io/refs/heads/master/favicon.ico",
+  title: "PG: Tech Blog",
+  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
