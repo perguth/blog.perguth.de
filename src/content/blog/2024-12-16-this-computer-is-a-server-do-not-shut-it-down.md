@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2024-11-16
 title: This computer is a server. DO NOT SHUT IT DOWN!!
-image: /uploads/do-not-turn-off.jpg
+ogImage: /uploads/do-not-turn-off.jpg
 featured: false
 draft: false
 ---
@@ -24,10 +24,10 @@ The bounce rate of a website is heavily influenced by its loading time. Accordin
 \=> At 5 seconds:  
 \==> The bounce rate dramatically reaches 73%.
 
-\---  
-  
+\---
+
 ¹: [https://www.pingdom.com/blog/page-load-time-really-affect-bounce-rate/](https://www.pingdom.com/blog/page-load-time-really-affect-bounce-rate/)[  
-Image](https://lnkd.in/gmdabDpn\)￼Image) attribution:  
+Image](https://lnkd.in/gmdabDpn\)%EF%BF%BCImage) attribution:  
 \- Coolcaesar: [https://en.wikipedia.org/wiki/User:Coolcaesar](https://en.wikipedia.org/wiki/User:Coolcaesar)[  
-\-](https://lnkd.in/gHFkMzyU\)￼-) at the English-language Wikipedia: [https://en.wikipedia.org/wiki/Main\_Page](https://en.wikipedia.org/wiki/Main_Page)[  
-\-](https://lnkd.in/gWsqhkbM\)￼-) Creative Commons Attribution-Share Alike 3.0 Unported license: [https://creativecommons.org/licenses/by-sa/3.0/deed.en](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+\-](https://lnkd.in/gHFkMzyU\)%EF%BF%BC-) at the English-language Wikipedia: [https://en.wikipedia.org/wiki/Main\_Page](https://en.wikipedia.org/wiki/Main_Page)[  
+\-](https://lnkd.in/gWsqhkbM\)%EF%BF%BC-) Creative Commons Attribution-Share Alike 3.0 Unported license: [https://creativecommons.org/licenses/by-sa/3.0/deed.en](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
