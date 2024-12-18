@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2024-10-12
 title: Tethering on the go
 ogImage: /uploads/tethering-on-the-go.jpg
 featured: false
