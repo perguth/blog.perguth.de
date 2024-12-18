@@ -1,48 +1,30 @@
 media:
-  input: public/uploads
-  output: /uploads
-
+  input: public
+  output: /
 content:
   - name: posts
-    label: English
+    label: Posts
     type: collection
     path: src/content/blog
     view:
-      fields: [title, draft, date]
+      fields: [ title, draft, date ]
     fields:
-      - { name: pubDatetime, label: Pub Date, type: date }
-      - { name: modDatetime, label: Mod Date, type: date }
+      - { name: author, label: Author, type: string }
+      - { name: pubDatetime, label: Date, type: date }
+      - { name: modDatetime, label: Date, type: date }
       - { name: title, label: Title, type: string, required: true }
-      - name: ogImage
-        label: Image
-        type: image
-        options:
-          extensions: [jpg, jpeg, png, webp, avif]
+      - { name: ogImage, label: Title, type: string }
       - { name: slug, label: Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
+      - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
-      - { name: description, label: Description, type: string }
-
-  - name: posts_de
-    label: Deutsch
-    type: collection
-    path: src/content/blog/de
-    view:
-      fields: [title, draft, date]
+  - name: about
+    label: About page
+    type: file
+    path: src/pages/about.md
     fields:
-      - { name: pubDatetime, label: Publk. Datum, type: date }
-      - { name: modDatetime, label: Geändert am, type: date }
-      - { name: title, label: Titel, type: string, required: true }
-      - name: ogImage
-        label: Bild
-        type: image
-        options:
-          extensions: [jpg, jpeg, png, webp, avif]
-      - { name: slug, label: Slug, type: string }
-      - { name: featured, label: Empfohlen, type: boolean }
-      - { name: draft, label: Entwurf, type: boolean }
-      - { name: tags, label: Tags, type: string, list: true }
-      - { name: body, label: Inhalt, type: rich-text }
-      - { name: description, label: Description, type: string }
+      - { name: layout, type: string, hidden: true, default: "../layouts/AboutLayout.astro" }
+      - { name: title, label: Title, type: string }
+      - { name: body, label: Body, type: rich-text, options: { input: public/assets, output: /assets } }
