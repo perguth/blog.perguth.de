@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://astro-paper.pages.dev/sitemap-index.xml
+Sitemap: https://blog.perguth.de/sitemap-index.xml
