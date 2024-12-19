@@ -8,7 +8,7 @@ export interface Props {
   noMarginTop?: boolean;
 }
 
-const { noMarginTop = false } = Astro.props;
+const { noMarginTop = false, legal = false } = Astro.props;
 ---
 
 <footer class={`${noMarginTop ? "" : "mt-auto"}`}>
@@ -16,6 +16,7 @@ const { noMarginTop = false } = Astro.props;
   <div class="footer-wrapper">
     <Socials centered />
     <div class="copyright-wrapper">
+      { legal && <span><a href="https://perguth.de/IMPRESSUM.txt">Impressum</a></span>}
       <span>Copyright &#169; {currentYear}</span>
       <span class="separator">&nbsp;|&nbsp;</span>
       <span>All rights reserved.</span>
