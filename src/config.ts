@@ -3,8 +3,8 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://blog.perguth.de/", // replace this with your deployed domain
   author: "Per Guth",
-  desc: "My tech blog.",
-  title: "pg-tech",
+  desc: "Full-stack Developer",
+  title: "Per Guth",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -28,7 +28,7 @@ export const SOCIALS: SocialObjects = [
     name: "Github",
     href: "https://github.com/perguth",
     linkTitle: ` ${SITE.title} on Github`,
-    acive: true,
+    active: true,
   },
   {
     name: "Facebook",
