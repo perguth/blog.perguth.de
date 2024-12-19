@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2024-08-15
 title: "[de] ChromeOS: Willkommen in Estland"
 ogImage: //uploads/de-willkommen-in-estland.jpg
 featured: false
