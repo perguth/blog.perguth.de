@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "Per Guth",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 100,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
