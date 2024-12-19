@@ -1,6 +1,7 @@
 ---
 pubDatetime: 2024-05-03
 title: Cryptographic Addressing in Decentralized Networks
+slug: addressing-in-decentralized-networks
 featured: false
 draft: false
 tags:
@@ -16,7 +17,7 @@ The integration of cryptographic principles is fundamentally altering how data i
 
 At the heart of this shift is the use of cryptographic keys to address and retrieve data. Unlike traditional methods that rely on fixed locations or URLs tied to specific servers, cryptographic addressing allows data to be accessed based on what it is—not where it is. This method enhances security, as each piece of data can be encrypted and controlled directly by its owner, and ensures that the data remains intact and unaltered during transfer.
 
-**_1_**. IP: **Decentralized** **IPv_6_** **Routing** **with** **Cryptographic** **Identities**
+**_1_**. IP: **Decentralized** **IPv\_6\_** **Routing** **with** **Cryptographic** **Identities**
 
 [Yggdrasil Network](https://yggdrasil-network.github.io/) leverages cryptographic keys to establish secure and scalable routing pathways across its mesh network, enabling a fully decentralized networking infrastructure.
 
