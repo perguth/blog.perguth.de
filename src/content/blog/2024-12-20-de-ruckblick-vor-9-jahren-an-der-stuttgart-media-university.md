@@ -27,7 +27,7 @@ Damals entwickelten ich eine Lösung, mit der Benutzer in nur drei Schritten Dat
 
 🔒 Ein Einblick in die **technische** **Umsetzung**: Peertransfer nutzte eine **authentifizierte** **Ende**\-**zu**\-**Ende**\-**Verschlüsselung** durch das kryptographische Wrapping der WebRTC-Verbindungsaufbau-Pakete. Diese Verschlüsselung der initialen Nachrichten schützte nicht nur vor eventuellen IP-Lecks sondern auch auch vor potentiellen Man-In-The-Middle-Angriffen.
 
-🔗 Wer mehr über die technischen Aspekte erfahren möchte oder inspiriert ist, ähnliche Projekte zu starten, kann sich den Originalcode auf GitHub anschauen.
+🔗 Wer mehr über die technischen Aspekte erfahren möchte oder inspiriert ist, ähnliche Projekte zu starten, kann sich den Originalcode auf GitHub anschauen [https://github.com/perguth/peertransfer](https://github.com/perguth/peertransfer) oder es hier ausprobieren [https://perguth.de/peertransfer/](https://perguth.de/peertransfer/)
 
 🎓 Ein Blick zurück hilft uns, die Wege zu schätzen, die wir eingeschlagen haben. Hat noch jemand **Erinnerungen** **an** **Campus**\-**Projekte**, die eure heutige Karriere geprägt haben?
 
