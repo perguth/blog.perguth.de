@@ -18,6 +18,7 @@ content:
         type: image
         options:
           extensions: [jpg, jpeg, png, webp, avif]
+          uploadDir: "public/uploads"
       - { name: slug, label: Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
