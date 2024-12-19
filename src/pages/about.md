@@ -3,34 +3,42 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+ 
+<pre>
+  <?php session_start(); ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html><?php include("spc/counter.php"); $spc->email = "me@iodron.net"; $spc = new spc(); $spc->start();?><head>
+<title>d3velop</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+body, pre, a		{background-color:white; color:black; font-size: 12px;
+			font-family:Verdana, Arial, Helvetica, SunSans-Regular, 
+			Sans-Serif;margin:4px;margin-top:0px;line-height:13px;}
+pre			{font-family:monospace;}
+div			{float:left;width:255px;margin:0;padding:0;}
+#box			{float:none;margin:0 auto;}
+ul			{font-size:12px;margin-top:20px;margin:0;}
+ul > li			{list-style-type:square;margin-top:12px;}
+hr			{border:0;border-top:1px black solid;margin:15px 0;}
+.red			{color:red;}
+a			{font-weight:bold;text-decoration:none;margin:0;}
+a:hover			{color:red;}
+#foot			{font-size:9px;text-align:center;margin-top:-5px;}
+#impressum		{position:fixed;bottom:2px;left:2px;}
+#impressum > a		{font-size:9px;font-weight:normal;}
+</style>
+<link rel="shortcut icon" href="favicon.ico" />
+</head><body>
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+<div id="box">
+<pre>                ___
+               / <span class="red">__</span>\<span class="red">___</span>
+              / <span class="red">/      \</span>
+          ___/ <span class="red">/____   /</span> ____
+         /    <span class="red">__</span>/<span class="red">_</span>\<span class="red">/  /</span> /   /
+        /  __<span class="red">/       /</span>\/   /
+       /  /_<span class="red">/____   /</span>     /
+http://\___<span class="red">___</span>/<span class="red">_/  /</span>\____/.ltd/
+          <span class="red">/       /
+          \______/</span></pre>
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
-
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+</pre>
