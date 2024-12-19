@@ -8,6 +8,7 @@ tags:
   - ChromeOS
   - eResidency
   - OpenSource
+  - Estland
 lang: de
 ---
 ChromeOS: Welcome to Estonia - 𝗘𝗶𝗻 𝗘𝗿𝗳𝗮𝗵𝗿𝘂𝗻𝗴𝘀𝗯𝗲𝗿𝗶𝗰𝗵𝘁 𝗮𝘂𝘀 𝗱𝗲𝗿 𝗢𝗽𝗲𝗻-𝗦𝗼𝘂𝗿𝗰𝗲-𝗪𝗲𝗹𝘁
