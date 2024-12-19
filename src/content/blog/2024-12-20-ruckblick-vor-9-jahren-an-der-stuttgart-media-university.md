@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2024-04-26
 title: "🕒 Rückblick: Vor 9 Jahren an der Stuttgart Media University"
 slug: peertransfer-hdm-project
 featured: false
