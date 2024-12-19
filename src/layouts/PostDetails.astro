@@ -102,7 +102,7 @@ const layoutProps = {
       <ShareLinks />
     </div>
   </main>
-  <Footer />
+  <Footer legal={slugifyStr(title).startsWith('[de] ')} />
 </Layout>
 
 <style>
