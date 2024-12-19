@@ -1,6 +1,7 @@
 ---
 pubDatetime: 2024-04-27
 title: 'Strengthening Web Security: The so-called "Secure Context"'
+ogImage: //uploads/secure-context-thingylabs.png
 slug: the-secure-context
 featured: false
 draft: false
