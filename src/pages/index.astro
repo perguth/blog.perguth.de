@@ -23,19 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1><code>{'<human-spirit shine="bright" share="knowledge" type="awesome" />'}</code></h1>
-      <p>
-        Tech enthusiast, passionate about driving innovation, solving real-world problems, and connecting with fellow technology lovers.
-      </p>
-      <p>
-        I am happy you're here! Let's connect:
-        ⚡<LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://ygg.thingylabs.io"
-        >
-          ygg.thingylabs.io
-        </LinkButton>.
-      </p>
+      <h1>{'<human-spirit shine="bright" share="knowledge" type="awesome" />'}</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -52,6 +40,18 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </svg>
         <span class="sr-only">RSS Feed</span>
       </a>
+      <p>
+        Tech enthusiast, passionate about driving innovation, solving real-world problems, and connecting with fellow technology lovers.
+      </p>
+      <p>
+        I am happy you're here! Let's connect:
+        ⚡<LinkButton
+          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+          href="https://ygg.thingylabs.io"
+        >
+          ygg.thingylabs.io
+        </LinkButton>.
+      </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
