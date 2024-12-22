@@ -6,6 +6,7 @@ const currentYear = new Date().getFullYear();
 
 export interface Props {
   noMarginTop?: boolean;
+  legal?: boolean;
 }
 
 const { noMarginTop = false, legal = false } = Astro.props;
@@ -16,7 +17,14 @@ const { noMarginTop = false, legal = false } = Astro.props;
   <div class="footer-wrapper">
     <Socials centered />
     <div class="copyright-wrapper">
-      { legal && <span><a href="https://perguth.de/IMPRESSUM.txt">Impressum</a></span>}
+      {
+        legal && (
+          <span class="legal-link">
+            <a href="https://www.guth.global/impressum/de">Impressum</a>
+            <span class="separator">&nbsp;|&nbsp;</span>
+          </span>
+        )
+      }
       <span>Copyright &#169; {currentYear}</span>
       <span class="separator">&nbsp;|&nbsp;</span>
       <span>All rights reserved.</span>
@@ -42,5 +50,8 @@ const { noMarginTop = false, legal = false } = Astro.props;
   }
   .separator {
     @apply hidden sm:inline;
+  }
+  .legal-link {
+    @apply flex items-center;
   }
 </style>
