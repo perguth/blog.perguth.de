@@ -31,16 +31,16 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
-    name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Facebook`,
-    active: false,
+    name: "Bluesky",
+    href: "https://bsky.app/profile/perguth.d3v.ltd",
+    linkTitle: `${SITE.title} on Bluesky`,
+    active: true,
   },
   {
-    name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
-    active: false,
+    name: "Telegram",
+    href: "https://t.me/perguth",
+    linkTitle: `${SITE.title} on Telegram`,
+    active: true,
   },
   {
     name: "LinkedIn",
@@ -49,10 +49,22 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
+    name: "Facebook",
+    href: "https://github.com/satnaing/astro-paper",
+    linkTitle: `${SITE.title} on Facebook`,
+    active: false,
+  },
+  {
     name: "Mail",
     href: "mailto:mail@perguth.de",
     linkTitle: `Send an email to ${SITE.title}`,
     active: true,
+  },
+  {
+    name: "Instagram",
+    href: "https://github.com/satnaing/astro-paper",
+    linkTitle: `${SITE.title} on Instagram`,
+    active: false,
   },
   {
     name: "Twitter",
@@ -130,12 +142,6 @@ export const SOCIALS: SocialObjects = [
     name: "Steam",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Steam`,
-    active: false,
-  },
-  {
-    name: "Telegram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Telegram`,
     active: false,
   },
   {
