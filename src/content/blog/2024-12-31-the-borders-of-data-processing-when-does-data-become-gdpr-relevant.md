@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2024-12-31
 title: "The Borders of Data Processing: When Does Data Become GDPR Relevant?"
-ogImage: //uploads/per-beeing-a-customer-in-a-store.jpg
+ogImage: /uploads/per-beeing-a-customer-in-a-store.jpg
 featured: false
 draft: false
 tags:
