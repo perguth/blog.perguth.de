@@ -2,7 +2,7 @@
 author: Thingylabs
 pubDatetime: 2024-07-19
 title: "[de] 🌟 𝗧𝗵𝗶𝗻𝗴𝘆𝗹𝗮𝗯𝘀 Open-Source-Unterstützung 🌟"
-ogImage: //uploads/de-thingylabs-opensource-support.jpeg
+ogImage: /uploads/de-thingylabs-opensource-support.jpeg
 slug: de-thingylabs-opensource-support
 featured: false
 draft: false
