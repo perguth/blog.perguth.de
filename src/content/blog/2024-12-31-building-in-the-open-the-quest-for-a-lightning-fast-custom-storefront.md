@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2024-12-31
 title: "Building in the Open: The Quest for a Lightning-Fast Custom Storefront"
-ogImage: //uploads/per-building-a-custom-storefront.jpg
+ogImage: /uploads/per-building-a-custom-storefront.jpg
 featured: false
 draft: false
 tags:
