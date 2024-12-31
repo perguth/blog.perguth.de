@@ -6,6 +6,9 @@ featured: false
 draft: false
 tags:
   - WooCommerce
+  - Shopify
+  - Webshop
+  - Deno
 description: Our journey began with WooCommerce, evolved through Shopify, and
   now points toward a custom solution. The driving force? Speed, as measured by
   Google's PageSpeed Insights.
