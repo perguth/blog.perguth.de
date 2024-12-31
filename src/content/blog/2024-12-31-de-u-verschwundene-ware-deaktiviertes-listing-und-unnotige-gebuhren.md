@@ -2,7 +2,7 @@
 pubDatetime: 2024-12-31
 title: "[de] 𝗠𝘂𝘀𝘀 𝗶𝗰𝗵 𝗳ü𝗿 𝗔𝗺𝗮𝘇𝗼𝗻𝘀 𝗙𝗲𝗵𝗹𝗲𝗿 𝘇𝗮𝗵𝗹𝗲𝗻?
   Verschwundene Ware, deaktiviertes Listing und unnötige Gebühren"
-ogImage: //uploads/per-not-looking-exactly-happy.jpg
+ogImage: /uploads/per-not-looking-exactly-happy.jpg
 featured: false
 draft: false
 tags:
