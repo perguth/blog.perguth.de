@@ -1,6 +1,7 @@
 ---
 pubDatetime: 2025-01-22
 title: Beyond the Sale
+ogImage: //uploads/our-amazon-support-case-response-time.png
 featured: false
 draft: false
 tags:
