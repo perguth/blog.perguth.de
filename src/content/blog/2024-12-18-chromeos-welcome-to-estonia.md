@@ -2,7 +2,7 @@
 pubDatetime: 2024-08-15
 title: "ChromeOS: Welcome to Estonia"
 ogImage: /uploads/estonian-e-residency.jpeg
-featured: true
+featured: false
 draft: false
 tags:
   - ChromeOS
