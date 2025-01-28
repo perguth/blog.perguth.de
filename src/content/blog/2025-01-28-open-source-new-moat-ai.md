@@ -1,14 +1,14 @@
 ---
 pubDatetime: 2025-01-28
 title: 𝗢𝗽𝗲𝗻 𝗦𝗼𝘂𝗿𝗰𝗲 𝗔𝗜 𝗔𝘀𝗰𝗲𝗻𝗱𝗮𝗻𝗰𝘆
-ogImage: //uploads/open-seek-at-its-limits.png
+ogImage: /uploads/open-seek-at-its-limits.png
 featured: false
 draft: false
 tags:
   - China
   - DeepSeek
   - opensource
-description: "  𝗦𝘁𝗿𝗮𝘁𝗲𝗴𝗶𝗰 𝗜𝗻𝘀𝗶𝗴𝗵𝘁𝘀 𝗳𝗼𝗿
+description: "𝗦𝘁𝗿𝗮𝘁𝗲𝗴𝗶𝗰 𝗜𝗻𝘀𝗶𝗴𝗵𝘁𝘀 𝗳𝗼𝗿
   𝗡𝗼𝗻-𝗧𝗲𝗰𝗵𝗻𝗶𝗰𝗮𝗹 𝗗𝗲𝗰𝗶𝘀𝗶𝗼𝗻-𝗠𝗮𝗸𝗲𝗿𝘀"
 ---
 The AI landscape is undergoing a quiet revolution with profound implications for business strategy. Here’s what executives need to understand about the shift from closed to open-source dominance:
