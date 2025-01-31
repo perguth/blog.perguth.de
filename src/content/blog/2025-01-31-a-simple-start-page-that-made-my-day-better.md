@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2025-01-31
 title: 💻 A Simple Start Page That Made My Day Better
-ogImage: //uploads/my-custom-startpage.png
+ogImage: /uploads/my-custom-startpage.png
 featured: false
 draft: false
 tags:
