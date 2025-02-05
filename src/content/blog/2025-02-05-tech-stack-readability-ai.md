@@ -2,7 +2,7 @@
 pubDatetime: 2025-02-05
 title: "𝗧𝗵𝗲 𝗡𝗲𝘄 𝗧𝗲𝗰𝗵 𝗦𝘁𝗮𝗰𝗸 𝗦𝗲𝗹𝗲𝗰𝘁𝗶𝗼𝗻 𝗖𝗿𝗶𝘁𝗲𝗿𝗶𝗮:
   𝗥𝗲𝗮𝗱𝗮𝗯𝗶𝗹𝗶𝘁𝘆 𝗶𝗻 𝘁𝗵𝗲 𝗔𝗴𝗲 𝗼𝗳 𝗔𝗜"
-ogImage: //uploads/per-at-eth-sea.jpg
+ogImage: /uploads/per-at-eth-sea.jpg
 slug: tech-stack-readability-ai
 featured: false
 draft: false
