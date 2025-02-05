@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2025-02-05
 title: An Evening of Open Source Innovation at Hackergarten Stuttgart
-ogImage: //uploads/per-twists-his-mouth.jpg
+ogImage: /uploads/hyper-yggdrasil-screencast.gif
 featured: false
 draft: false
 tags:
