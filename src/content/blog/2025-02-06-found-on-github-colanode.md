@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2025-02-06
-title: "🔍 Found on Github: Colanode"
+title: "🔍 𝗙𝗼𝘂𝗻𝗱 𝗼𝗻 𝗚𝗶𝘁𝗵𝘂𝗯: Colanode"
 ogImage: /uploads/colanode-desktop-preview.gif
 slug: colanode-local-first-collab-platform
 featured: false
