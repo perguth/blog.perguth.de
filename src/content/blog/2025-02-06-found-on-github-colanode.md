@@ -1,5 +1,6 @@
 ---
 title: "🔍 Found on Github: Colanode"
+ogImage: //uploads/90-percentile-salary.jpg
 slug: colanode-local-first-collab-platform
 featured: false
 draft: false
