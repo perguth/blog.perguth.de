@@ -1,6 +1,6 @@
 ---
 title: "🔍 Found on Github: Colanode"
-ogImage: //uploads/90-percentile-salary.jpg
+ogImage: /uploads/colanode-desktop-preview.gif
 slug: colanode-local-first-collab-platform
 featured: false
 draft: false
@@ -23,6 +23,5 @@ For senior engineers looking at collaboration tools: The architecture choices ar
 
 🔗 [github.com/colanode/colanode](http://github.com/colanode/colanode)
 
-\*\*\*
-
+\*\*\* \\
 📸 Screencast source: [colanode.com](http://colanode.com) © 2025 Colanode. All rights reserved.
