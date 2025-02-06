@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2025-02-06
 title: "🔍 Found on Github: Colanode"
 ogImage: /uploads/colanode-desktop-preview.gif
 slug: colanode-local-first-collab-platform
@@ -23,5 +24,5 @@ For senior engineers looking at collaboration tools: The architecture choices ar
 
 🔗 [github.com/colanode/colanode](http://github.com/colanode/colanode)
 
-\*\*\* \
+\*\*\*  
 📸 Screencast source: [colanode.com](http://colanode.com) © 2025 Colanode. All rights reserved.
