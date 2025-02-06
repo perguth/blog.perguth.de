@@ -23,5 +23,5 @@ For senior engineers looking at collaboration tools: The architecture choices ar
 
 🔗 [github.com/colanode/colanode](http://github.com/colanode/colanode)
 
-\*\*\* \\
+\*\*\* \
 📸 Screencast source: [colanode.com](http://colanode.com) © 2025 Colanode. All rights reserved.
