@@ -2,7 +2,7 @@
 pubDatetime: 2025-02-07
 title: "🚀 30-Minute AI Pair Programming: 𝗙𝗿𝗼𝗺 𝗭𝗲𝗿𝗼 𝘁𝗼 𝗖𝗵𝗿𝗼𝗺𝗲
   𝗘𝘅𝘁𝗲𝗻𝘀𝗶𝗼𝗻"
-ogImage: //uploads/per-leaning-back-from-computer.jpg
+ogImage: /uploads/per-leaning-back-from-computer.jpg
 slug: 30-min-chrome-extension-ai-pair-programming
 featured: false
 draft: false
