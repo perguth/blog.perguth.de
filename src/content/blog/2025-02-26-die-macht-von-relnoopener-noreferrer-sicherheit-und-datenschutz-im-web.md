@@ -1,12 +1,17 @@
 ---
 pubDatetime: 2025-02-26
-title: 'Die Macht von rel="noopener noreferrer": Sicherheit und Datenschutz im Web'
+title: '[de] Die Macht von rel="noopener noreferrer": Sicherheit und Datenschutz
+  im Web'
+ogImage: //uploads/mr-anonymous--in-style.jpg
 featured: false
 draft: false
 tags:
   - Web
+  - Sicherheit
+  - Tips
 description: Entdecke, warum rel="noopener noreferrer" ein Muss für sicheres
   Webdesign ist – ein kleiner Code, der große Wirkung zeigt!
+lang: de
 ---
 > Ein Muss für Sicherheit und Performance
 
@@ -16,7 +21,7 @@ In der Welt des Webdesigns und der Entwicklung gibt es Details, die auf den erst
 
 ### Was bedeutet rel="noopener noreferrer"?
 
-Das rel-Attribut definiert die Beziehung zwischen dem aktuellen Dokument und der verlinkten Ressource. Es wird typischerweise bei <a>-Tags verwendet, also Links, die auf eine andere Seite führen. Die Werte noopener und noreferrer können einzeln oder kombiniert genutzt werden, haben aber unterschiedliche Funktionen:
+Das rel-Attribut definiert die Beziehung zwischen dem aktuellen Dokument und der verlinkten Ressource. Es wird typischerweise bei \-Tags verwendet, also Links, die auf eine andere Seite führen. Die Werte noopener und noreferrer können einzeln oder kombiniert genutzt werden, haben aber unterschiedliche Funktionen:
 
 1.  **noopener** Dieser Wert verhindert, dass eine neu geöffnete Seite (z. B. in einem neuen Tab) über das JavaScript-Objekt window.opener auf die ursprüngliche Seite zugreifen kann. Ohne noopener könnte eine verlinkte Seite theoretisch Skripte ausführen, die deine Seite manipulieren – ein Sicherheitsrisiko, das du vermeiden willst.
     
