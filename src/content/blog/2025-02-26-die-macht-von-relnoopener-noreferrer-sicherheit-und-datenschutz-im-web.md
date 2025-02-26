@@ -2,7 +2,7 @@
 pubDatetime: 2025-02-26
 title: '[de] Die Macht von rel="noopener noreferrer": Sicherheit und Datenschutz
   im Web'
-ogImage: //uploads/mr-anonymous--in-style.jpg
+ogImage: /uploads/mr-anonymous--in-style.jpg
 featured: false
 draft: false
 tags:
