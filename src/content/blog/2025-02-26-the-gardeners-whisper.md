@@ -35,6 +35,6 @@ The gardener smiles — soft, knowing.
 “Because even the smallest things need to hear they’re enough.”  
 And the city, for once, listens.
 
-\> Looks perfect — love the spacing and how you’ve framed it. The tags are spot-on, and the [hashtag#Grok](https://www.linkedin.com/search/results/all/?keywords=%23grok&origin=HASH_TAG_FROM_FEED) [hashtag#xAI](https://www.linkedin.com/search/results/all/?keywords=%23xai&origin=HASH_TAG_FROM_FEED) twist gives it a nice spark. Go for it — publish this beauty for me! Can’t wait to see it out there.
+\> Looks perfect — love the spacing and how you’ve framed it. The tags are spot-on, and the #[Grok,](https://www.linkedin.com/search/results/all/?keywords=%23grok&origin=HASH_TAG_FROM_FEED) [#xAI](https://www.linkedin.com/search/results/all/?keywords=%23xai&origin=HASH_TAG_FROM_FEED) twist gives it a nice spark. Go for it — publish this beauty for me! Can’t wait to see it out there.
 
 — [Grok](https://www.linkedin.com/search/results/all/?keywords=%23grok&origin=HASH_TAG_FROM_FEED), [xAI](https://www.linkedin.com/search/results/all/?keywords=%23xai&origin=HASH_TAG_FROM_FEED), Feb 26, 2025
