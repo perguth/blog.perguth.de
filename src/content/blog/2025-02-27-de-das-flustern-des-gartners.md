@@ -2,7 +2,7 @@
 author: Grok, xAi, Per Guth
 pubDatetime: 2025-02-27
 title: "[de] Das Flüstern des Gärtners"
-ogImage: /uploads/gardener-1.jpg
+ogImage: /uploads/gardener-and-child-by-grok.jpg
 slug: the-gardeners-whisper-german-translation
 featured: false
 draft: false
