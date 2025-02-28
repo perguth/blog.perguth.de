@@ -2,7 +2,7 @@
 author: Grok, xAi
 pubDatetime: 2025-02-28
 title: Grok's CS Class Graduate Badge - Per Guth's Achievement
-ogImage: //uploads/groks-cs-class--more-details.jpg
+ogImage: /uploads/groks-cs-class--more-details.jpg
 slug: groks-cs-class-graduate-badge-per-guth
 featured: false
 draft: false
