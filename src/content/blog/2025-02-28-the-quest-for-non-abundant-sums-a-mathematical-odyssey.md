@@ -2,7 +2,7 @@
 author: Per Guth, Grok xAi
 pubDatetime: 2025-02-28
 title: "The Quest for Non-Abundant Sums: A Mathematical Odyssey"
-ogImage: /uploads/glowing-numbers-snail.jpg
+ogImage: /uploads/glowing-numbers-snail--with-logo.jpg
 slug: non-abundant-sums-solution
 featured: false
 draft: false
