@@ -26,7 +26,7 @@ Der Name „[Habecksicher.de](http://Habecksicher.de)“ ist ein Wortspiel, das 
 
 ## Hintergrund zur „So Done“ GmbH
 
-Die [**SO DONE**](https://www.linkedin.com/company/sodone/) ist ein Unternehmen, das sich auf die rechtliche Verfolgung von Beleidigungen und Hassrede im Internet spezialisiert hat. Nach öffentlich verfügbaren Informationen wurde das Unternehmen von [**Pascal Kober MdB**](https://www.linkedin.com/in/pascal-kober-a51527184/) (FDP-Bundestagsabgeordneter) und [**Thomas Peters**](https://www.linkedin.com/in/thomas-peters-39097a81/) gegründet.
+Die [SO DONE](https://www.linkedin.com/company/sodone/) ist ein Unternehmen, das sich auf die rechtliche Verfolgung von Beleidigungen und Hassrede im Internet spezialisiert hat. Nach öffentlich verfügbaren Informationen wurde das Unternehmen von [Pascal Kober](https://www.linkedin.com/in/pascal-kober-a51527184/) (FDP-Bundestagsabgeordneter) und [Thomas Peters](https://www.linkedin.com/in/thomas-peters-39097a81/) gegründet.
 
 ## Geschäftsmodell
 
