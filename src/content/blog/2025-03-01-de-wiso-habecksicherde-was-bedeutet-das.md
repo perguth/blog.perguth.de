@@ -15,7 +15,7 @@ description: Analyse des "So Done"-Falls und seiner Auswirkungen auf die
   unerwarteten Hausdurchsuchungen schützen können.
 lang: de
 ---
-Der Name „[Habecksicher.de](http://Habecksicher.de)“ ist ein Wortspiel, das auf die aktuelle Situation der digitalen Rechtsverfolgung in Deutschland anspielt – insbesondere im Zusammenhang mit dem Fall „So Done“ und Robert Habeck.
+Der Name „[Habecksicher.de](https://www.habecksicher.com/)“ ist ein Wortspiel, das auf die aktuelle Situation der digitalen Rechtsverfolgung in Deutschland anspielt – insbesondere im Zusammenhang mit dem Fall „So Done“ und Robert Habeck.
 
 ```
 /**
