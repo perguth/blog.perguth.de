@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2025-03-01
 title: "[de] Wiso Habecksicher.de - Was bedeutet das?"
-ogImage: /uploads/Screenshot 2025-03-01 15.44.16.png
+ogImage: /uploads/habecksicher-logo.png
 slug: habecksicher-gegen-digitale-einschuechterung-so-done-fall
 featured: false
 draft: false
