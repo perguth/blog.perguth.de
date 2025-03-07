@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2025-03-07
 title: "Finding the Balance: When Transparency Meets Strategy in Business"
-ogImage: //uploads/per-in-a-suit-in-the-thailand-heat.jpg
+ogImage: /uploads/per-in-a-suit-in-the-thailand-heat.jpg
 slug: finding-balance-transparency-strategy-business
 featured: false
 draft: false
