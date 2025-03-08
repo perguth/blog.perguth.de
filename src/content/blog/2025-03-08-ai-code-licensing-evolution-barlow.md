@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2025-03-08
 title: Licensing Was About Avoiding Copies. AI Now Adapts Code—Not Copies.
-ogImage: //uploads/per-at-the-stuttgart-office.jpg
+ogImage: /uploads/per-at-the-stuttgart-office.jpg
 slug: ai-code-licensing-evolution-barlow
 featured: false
 draft: false
