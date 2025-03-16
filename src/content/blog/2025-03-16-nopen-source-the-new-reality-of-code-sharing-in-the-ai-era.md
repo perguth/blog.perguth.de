@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2025-03-16
 title: "Nopen Source: The New Reality of Code Sharing in the AI Era"
-ogImage: //uploads/per-at-wow-summit-bangkok.jpg
+ogImage: /uploads/per-at-wow-summit-bangkok.jpg
 slug: nopen-source-code-sharing-ai-era
 featured: false
 draft: false
