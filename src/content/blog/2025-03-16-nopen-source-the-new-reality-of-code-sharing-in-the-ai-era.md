@@ -87,4 +87,4 @@ In this new landscape, perhaps what matters most isn't who owns which lines of c
 
 \---
 
-_What do you think about the concept of Nopen Source? Is it a pragmatic acceptance of reality or a concerning erosion of creators' rights? Have you encountered examples of this approach in your development work? Share your thoughts in the comments below._
+_What do you think about the concept of Nopen Source? Is it a pragmatic acceptance of reality or a concerning erosion of creators' rights? Have you encountered examples of this approach in your development work?_
