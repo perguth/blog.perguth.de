@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2025-03-17
-title: "[de] Der ZUGFeRD-Skandal: Bürgermissbrauch durch erzwungene private
-  Zwangsregeln"
+title: "[de] Die ZUGFeRD-Problematik: Wenn der Staat Bürger unsichtbaren
+  Privatregeln unterwirft"
 ogImage: /uploads/per-in-an-elevator-arms-crossed-de.jpg
 slug: zugferd-standard-demokratieproblem-nicht-einsehbare-bedingungen
 featured: false
