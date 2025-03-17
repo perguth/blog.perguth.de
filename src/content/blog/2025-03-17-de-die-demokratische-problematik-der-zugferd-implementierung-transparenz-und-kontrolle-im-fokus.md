@@ -46,15 +46,10 @@ Diese Situation wirft mehrere grundlegende Fragen auf:
 Das Rechtsstaatsprinzip fordert, dass Rechtsnormen für Bürger zugänglich und klar sind:
 
 | **Rechtsgrundlage** | **Inhalt** | **Bedeutung für ZUGFeRD** |
-
 |-----------------------|---------------------------------------------------------------------------|-------------------------------------------------|
-
 | Artikel 20(3) GG | Bindung von Gesetzgebung, Exekutive und Justiz an Recht und Gesetz | Fordert Transparenz und Zugänglichkeit von Normen |
-
 | BVerfGE 65, 1 | Bürger müssen Rechtsnormen ohne unzumutbare Hürden kennen können | Unterstützt den Anspruch auf offene Standards |
-
 | § 305 Abs. 2 BGB | AGB müssen bei Vertragsschluss einsehbar und klar sein | Macht nicht einsehbare Bedingungen unwirksam |
-
 | § 305c BGB | Überraschende Klauseln in AGB sind unwirksam | Schützt vor versteckten Einschränkungen |
 
 \## Die rechtliche Unwirksamkeit der nicht offengelegten Bedingungen
