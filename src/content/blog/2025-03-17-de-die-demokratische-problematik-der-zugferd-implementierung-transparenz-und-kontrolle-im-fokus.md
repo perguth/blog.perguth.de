@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2025-03-17
-title: "[de] Die demokratische Problematik der ZUGFeRD-Implementierung:
-  Transparenz und Kontrolle im Fokus"
+title: "[de] Der ZUGFeRD-Skandal: Bürgermissbrauch durch erzwungene private
+  Zwangsregeln"
 ogImage: /uploads/per-in-an-elevator-arms-crossed-de.jpg
 slug: zugferd-standard-demokratieproblem-nicht-einsehbare-bedingungen
 featured: false
