@@ -2,7 +2,7 @@
 pubDatetime: 2025-03-17
 title: "[de] Die demokratische Problematik der ZUGFeRD-Implementierung:
   Transparenz und Kontrolle im Fokus"
-ogImage: //uploads/per-in-an-elevator-arms-crossed-de.jpg
+ogImage: /uploads/per-in-an-elevator-arms-crossed-de.jpg
 slug: zugferd-standard-demokratieproblem-nicht-einsehbare-bedingungen
 featured: false
 draft: false
