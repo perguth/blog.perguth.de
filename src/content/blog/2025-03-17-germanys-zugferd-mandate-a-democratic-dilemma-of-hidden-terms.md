@@ -1,7 +1,7 @@
 ---
 pubDatetime: 2025-03-17
 title: "Germany's ZUGFeRD Mandate: A Democratic Dilemma of Hidden Terms"
-ogImage: //uploads/per-in-an-elevator-arms-crossed.jpg
+ogImage: /uploads/per-in-an-elevator-arms-crossed.jpg
 slug: zugferd-germany-hidden-terms-democratic-dilemma
 featured: false
 draft: false
