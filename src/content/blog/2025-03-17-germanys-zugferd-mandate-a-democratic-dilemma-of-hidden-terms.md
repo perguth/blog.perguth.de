@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2025-03-17
-title: "Germany's ZUGFeRD Mandate: A Democratic Dilemma of Hidden Terms"
+title: "Germany’s ZUGFeRD Mandate: Citizen Abuse Through Forced Private Terms"
 ogImage: /uploads/per-in-an-elevator-arms-crossed.jpg
 slug: zugferd-germany-hidden-terms-democratic-dilemma
 featured: false
@@ -71,7 +71,7 @@ The issue isn’t new. The Internet Archive shows the same setup on January 20, 
 
 Here’s the twist: While Germany mandates ZUGFeRD, the hidden terms aren’t legally enforceable because they’re not disclosed upfront. Companies can use the standard without being bound by FeRD’s unseen conditions—an odd but legally sound loophole.
 
-Yet the deeper issue remains: A democratic state shouldn’t force citizens to navigate private, opaque terms to meet legal duties.  
+Yet the deeper issue remains: A democratic state shouldn’t force citizens to navigate private, opaque terms to meet legal duties.
 
 * * *
 
