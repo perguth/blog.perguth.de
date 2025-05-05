@@ -25,7 +25,7 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialObjects = [
   {
-    name: "BTC",
+    name: "Bitcoin",
     href: "https://btc.perguth.de/",
     linkTitle: ` ${SITE.title} on Bitcoin`,
     active: true,
