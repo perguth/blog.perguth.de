@@ -21,6 +21,10 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
 <Layout>
   <Header />
+  
+  <!-- Baddie Rain Container -->
+  <div id="baddie-rain" aria-hidden="true"></div>
+  
   <main id="main-content">
     <section id="hero">
       <h1>{'<human-spirit shine="bright" share="knowledge" type="awesome" />'}</h1>
@@ -121,9 +125,67 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 </Layout>
 
 <style>
+  /* ===== Baddie Rain Effect ===== */
+  #baddie-rain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .baddie-drop {
+    position: absolute;
+    color: #ff69b4;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0.6;
+    animation: fall linear infinite;
+    text-shadow: 0 0 3px rgba(255, 105, 180, 0.3);
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.6;
+    }
+    90% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateY(calc(100vh + 100px));
+      opacity: 0;
+    }
+  }
+
+  /* Reduce animation on mobile for performance */
+  @media (max-width: 768px) {
+    .baddie-drop {
+      font-size: 12px;
+      opacity: 0.4;
+    }
+  }
+
+  /* Respect user's motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    .baddie-drop {
+      animation: none;
+      display: none;
+    }
+  }
+
   /* ===== Hero Section ===== */
   #hero {
     @apply pb-6 pt-8;
+    position: relative;
+    z-index: 2;
   }
   #hero h1 {
     @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
@@ -148,6 +210,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   #featured,
   #recent-posts {
     @apply pb-6 pt-12;
+    position: relative;
+    z-index: 2;
   }
   #featured h2,
   #recent-posts h2 {
@@ -155,5 +219,106 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Ensure main content is above the rain */
+  #main-content {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.95);
   }
 </style>
+
+<script>
+  class BaddieRain {
+    constructor() {
+      this.container = document.getElementById('baddie-rain');
+      this.words = ['baddie', '✨', '💖', '🌸'];
+      this.drops = [];
+      this.maxDrops = window.innerWidth < 768 ? 8 : 15;
+      this.isActive = true;
+      
+      // Respect user preferences
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        return;
+      }
+      
+      this.init();
+    }
+
+    init() {
+      this.createDrop();
+      this.scheduleNext();
+      
+      // Clean up drops periodically
+      setInterval(() => this.cleanup(), 5000);
+      
+      // Pause when page is not visible
+      document.addEventListener('visibilitychange', () => {
+        this.isActive = !document.hidden;
+      });
+    }
+
+    createDrop() {
+      if (!this.isActive || this.drops.length >= this.maxDrops) return;
+
+      const drop = document.createElement('div');
+      drop.className = 'baddie-drop';
+      drop.textContent = this.words[Math.floor(Math.random() * this.words.length)];
+      
+      // Random horizontal position
+      drop.style.left = Math.random() * 100 + '%';
+      
+      // Random animation duration (3-8 seconds)
+      const duration = 3 + Math.random() * 5;
+      drop.style.animationDuration = duration + 's';
+      
+      // Slight random delay
+      drop.style.animationDelay = Math.random() * 2 + 's';
+      
+      this.container.appendChild(drop);
+      this.drops.push(drop);
+      
+      // Remove drop after animation
+      setTimeout(() => {
+        if (drop.parentNode) {
+          drop.parentNode.removeChild(drop);
+          this.drops = this.drops.filter(d => d !== drop);
+        }
+      }, (duration + 2) * 1000);
+    }
+
+    scheduleNext() {
+      if (!this.isActive) {
+        setTimeout(() => this.scheduleNext(), 1000);
+        return;
+      }
+      
+      // Random interval between drops (1-4 seconds)
+      const delay = 1000 + Math.random() * 3000;
+      setTimeout(() => {
+        this.createDrop();
+        this.scheduleNext();
+      }, delay);
+    }
+
+    cleanup() {
+      // Remove any orphaned drops
+      const orphans = this.container.querySelectorAll('.baddie-drop');
+      if (orphans.length > this.maxDrops * 2) {
+        Array.from(orphans).slice(0, orphans.length - this.maxDrops).forEach(drop => {
+          if (drop.parentNode) drop.parentNode.removeChild(drop);
+        });
+      }
+    }
+  }
+
+  // Initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => new BaddieRain());
+  } else {
+    new BaddieRain();
+  }
+</script>
