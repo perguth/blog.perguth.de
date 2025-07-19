@@ -22,8 +22,21 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <Layout>
   <Header />
   
-  <!-- Baddie Rain Container -->
-  <div id="baddie-rain" aria-hidden="true"></div>
+  <!-- Special Shoutout Banner -->
+  <div class="announcement-banner" id="announcement-banner">
+    <div class="banner-content">
+      <div class="banner-text">
+        <span class="sparkle">✨</span>
+        <span class="message">Special shoutout to my favorite baddie!</span>
+        <span class="sparkle">✨</span>
+      </div>
+      <button class="banner-close" onclick="closeBanner()" aria-label="Close announcement">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M8 6.586L13.657 1 15 2.343 9.414 8 15 13.657 13.657 15 8 9.414 2.343 15 1 13.657 6.586 8 1 2.343 2.343 1 8 6.586z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
   
   <main id="main-content">
     <section id="hero">
@@ -125,58 +138,144 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 </Layout>
 
 <style>
-  /* ===== Baddie Rain Effect ===== */
-  #baddie-rain {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 1;
-    overflow: hidden;
+  /* ===== Announcement Banner ===== */
+  .announcement-banner {
+    background: linear-gradient(135deg, #ff6b9d 0%, #ff8fab 50%, #ffa8cc 100%);
+    color: white;
+    padding: 12px 16px;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(255, 107, 157, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    animation: slideDown 0.5s ease-out;
   }
 
-  .baddie-drop {
-    position: absolute;
-    color: #ff69b4;
-    font-family: 'Courier New', monospace;
+  .banner-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .banner-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     font-size: 14px;
-    font-weight: bold;
-    opacity: 0.6;
-    animation: fall linear infinite;
-    text-shadow: 0 0 3px rgba(255, 105, 180, 0.3);
+    font-weight: 500;
+    text-align: center;
   }
 
-  @keyframes fall {
-    0% {
-      transform: translateY(-100px);
+  .sparkle {
+    animation: sparkle 2s ease-in-out infinite;
+    display: inline-block;
+  }
+
+  .message {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    letter-spacing: 0.3px;
+  }
+
+  .banner-close {
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-close:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .banner-close:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.5);
+    outline-offset: 2px;
+  }
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
       opacity: 0;
     }
-    10% {
-      opacity: 0.6;
+    to {
+      transform: translateY(0);
+      opacity: 1;
     }
-    90% {
-      opacity: 0.6;
+  }
+
+  @keyframes sparkle {
+    0%, 100% {
+      transform: scale(1) rotate(0deg);
+      opacity: 1;
     }
-    100% {
-      transform: translateY(calc(100vh + 100px));
+    50% {
+      transform: scale(1.2) rotate(180deg);
+      opacity: 0.8;
+    }
+  }
+
+  .banner-hidden {
+    animation: slideUp 0.3s ease-in forwards;
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(0);
+      opacity: 1;
+      max-height: 100px;
+    }
+    to {
+      transform: translateY(-100%);
       opacity: 0;
+      max-height: 0;
+      padding: 0;
+      margin: 0;
     }
   }
 
-  /* Reduce animation on mobile for performance */
-  @media (max-width: 768px) {
-    .baddie-drop {
-      font-size: 12px;
-      opacity: 0.4;
+  /* Mobile responsiveness */
+  @media (max-width: 640px) {
+    .announcement-banner {
+      padding: 10px 12px;
+    }
+    
+    .banner-text {
+      font-size: 13px;
+      gap: 6px;
+    }
+    
+    .banner-close {
+      position: static;
+      margin-left: 12px;
+    }
+    
+    .banner-content {
+      justify-content: space-between;
     }
   }
 
-  /* Respect user's motion preferences */
+  /* Respect reduced motion preferences */
   @media (prefers-reduced-motion: reduce) {
-    .baddie-drop {
+    .announcement-banner {
       animation: none;
+    }
+    
+    .sparkle {
+      animation: none;
+    }
+    
+    .banner-hidden {
       display: none;
     }
   }
@@ -184,8 +283,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   /* ===== Hero Section ===== */
   #hero {
     @apply pb-6 pt-8;
-    position: relative;
-    z-index: 2;
   }
   #hero h1 {
     @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
@@ -210,8 +307,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   #featured,
   #recent-posts {
     @apply pb-6 pt-12;
-    position: relative;
-    z-index: 2;
   }
   #featured h2,
   #recent-posts h2 {
@@ -219,106 +314,40 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;
-    position: relative;
-    z-index: 2;
-  }
-
-  /* Ensure main content is above the rain */
-  #main-content {
-    position: relative;
-    z-index: 2;
-    background: rgba(255, 255, 255, 0.95);
   }
 </style>
 
 <script>
-  class BaddieRain {
-    constructor() {
-      this.container = document.getElementById('baddie-rain');
-      this.words = ['baddie', '✨', '💖', '🌸'];
-      this.drops = [];
-      this.maxDrops = window.innerWidth < 768 ? 8 : 15;
-      this.isActive = true;
+  function closeBanner() {
+    const banner = document.getElementById('announcement-banner');
+    if (banner) {
+      banner.classList.add('banner-hidden');
+      // Store in localStorage so it stays closed
+      localStorage.setItem('baddie-banner-closed', 'true');
       
-      // Respect user preferences
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-        return;
-      }
-      
-      this.init();
-    }
-
-    init() {
-      this.createDrop();
-      this.scheduleNext();
-      
-      // Clean up drops periodically
-      setInterval(() => this.cleanup(), 5000);
-      
-      // Pause when page is not visible
-      document.addEventListener('visibilitychange', () => {
-        this.isActive = !document.hidden;
-      });
-    }
-
-    createDrop() {
-      if (!this.isActive || this.drops.length >= this.maxDrops) return;
-
-      const drop = document.createElement('div');
-      drop.className = 'baddie-drop';
-      drop.textContent = this.words[Math.floor(Math.random() * this.words.length)];
-      
-      // Random horizontal position
-      drop.style.left = Math.random() * 100 + '%';
-      
-      // Random animation duration (3-8 seconds)
-      const duration = 3 + Math.random() * 5;
-      drop.style.animationDuration = duration + 's';
-      
-      // Slight random delay
-      drop.style.animationDelay = Math.random() * 2 + 's';
-      
-      this.container.appendChild(drop);
-      this.drops.push(drop);
-      
-      // Remove drop after animation
+      // Remove from DOM after animation
       setTimeout(() => {
-        if (drop.parentNode) {
-          drop.parentNode.removeChild(drop);
-          this.drops = this.drops.filter(d => d !== drop);
-        }
-      }, (duration + 2) * 1000);
-    }
-
-    scheduleNext() {
-      if (!this.isActive) {
-        setTimeout(() => this.scheduleNext(), 1000);
-        return;
-      }
-      
-      // Random interval between drops (1-4 seconds)
-      const delay = 1000 + Math.random() * 3000;
-      setTimeout(() => {
-        this.createDrop();
-        this.scheduleNext();
-      }, delay);
-    }
-
-    cleanup() {
-      // Remove any orphaned drops
-      const orphans = this.container.querySelectorAll('.baddie-drop');
-      if (orphans.length > this.maxDrops * 2) {
-        Array.from(orphans).slice(0, orphans.length - this.maxDrops).forEach(drop => {
-          if (drop.parentNode) drop.parentNode.removeChild(drop);
-        });
-      }
+        banner.remove();
+      }, 300);
     }
   }
 
-  // Initialize when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => new BaddieRain());
-  } else {
-    new BaddieRain();
-  }
+  // Check if banner was previously closed
+  document.addEventListener('DOMContentLoaded', () => {
+    const wasClosed = localStorage.getItem('baddie-banner-closed');
+    if (wasClosed === 'true') {
+      const banner = document.getElementById('announcement-banner');
+      if (banner) {
+        banner.remove();
+      }
+    }
+  });
+
+  // Auto-hide after 10 seconds (optional)
+  setTimeout(() => {
+    const banner = document.getElementById('announcement-banner');
+    if (banner && !banner.classList.contains('banner-hidden')) {
+      closeBanner();
+    }
+  }, 10000);
 </script>
